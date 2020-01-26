@@ -13,4 +13,4 @@ app.use(express.static(__dirname + '/public'));
 app.use('/', mainRoute);
 
 // Start Express Server
-app.listen(8000, () => console.log('Express Server started on port 2000'));
+app.listen(8000, () => console.log('Express Server started on port 8000'));
