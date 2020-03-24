@@ -1,10 +1,64 @@
-body { margin: 0; padding: 0; background-color: #23272A; background-size: cover; }
-.portfolio { width: 450px; background: rgba(0, 0, 0, 0.7); padding: 40px; opacity: 95%; text-align: center; margin: auto; margin-top: -45%; color: white; font-family: 'Century Gothic', sans-serif; }
-.portfolio-img { border-radius: 50%; width: 200px; height: 200px; }
-.portfolio h1 { font-size: 40px; letter-spacing: 4px; font-weight: 100; }
-.portfolio h5 { font-size: 20px; letter-spacing: 3px; font-weight: 100; }
-.portfolio li { display: inline-block; margin: 6px; list-style: none; }
-.portfolio li a { color: white; text-decoration: none; font-size: 50px; transition: all ease-in-out 250ms; }
-.portfolio li a:hover { color: #b9b9b9; }
-ul { margin: 0; padding: 0; }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #23272A;
+    background-size: cover;
+}
 
+.portfolio {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    opacity: 95%;
+    text-align: center;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    margin: auto;
+}
+
+.portfolio-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.portfolio h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.portfolio h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.portfolio li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.portfolio li a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+}
+
+.portfolio li a:hover {
+    color: #b9b9b9;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
